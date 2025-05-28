@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sign-up Form</title>
+  </head>
+  <body>
+    <h1>Sign-up Form</h1>
+    <form action="#" method="post">
+      <div>
+        <label for="name">Name:</label><br />
+        <input type="text" name="name" id="name" />
+      </div>
+      <br />
+
+      <div>
+        <label for="email">Email:</label><br />
+        <input type="email" name="email" id="email" />
+      </div>
+      <br />
+
+      <div>
+        <label for="whatsapp">WhatsApp:</label><br />
+        <input type="tel" name="whatsapp" id="whatsapp" />
+      </div>
+      <br />
+
+      <div>
+        <label>Area of expertise:</label><br />
+        <input
+          type="radio"
+          name="expertise"
+          id="development"
+          value="development" />
+        <label for="development">Development</label>
+        <input type="radio" name="expertise" id="qa" value="qa" />
+        <label for="qa">Quality Assurance (QA)</label>
+        <input
+          type="radio"
+          name="expertise"
+          id="data-analysis"
+          value="data-analysis" />
+        <label for="data-analysis">Data Analysis</label>
+        <input
+          type="radio"
+          name="expertise"
+          id="infrastructure"
+          value="infrastructure" />
+        <label for="infrastructure">Infrastructure</label>
+      </div>
+      <br />
+
+      <div>
+        <label for="comments">Comments:</label><br />
+        <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+      </div>
+      <br />
+
+      <div>
+        <input
+          type="checkbox"
+          name="subscribe"
+          id="subscribe"
+          value="subscribe" />
+        <label for="subscribe"
+          >I wish to receive news and offers by email.</label
+        >
+      </div>
+      <br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

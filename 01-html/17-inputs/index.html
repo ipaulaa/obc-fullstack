@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Inputs</title>
+  </head>
+  <body>
+    <h1>Inputs</h1>
+    <form>
+      <label for="name">Name:</label><br />
+      <input type="text" name="name" id="name" required />
+      <br /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" name="email" id="email" required />
+      <br /><br />
+
+      <label for="password">Password:</label><br />
+      <input type="password" name="password" id="password" required />
+      <br /><br />
+
+      <label for="age">Age:</label><br />
+      <input type="number" name="age" id="age" min="0" max="125" />
+      <br /><br />
+
+      <label>Gender:</label><br />
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="other" value="other" />
+      <label for="other">Other</label>
+      <br /><br />
+
+      <label>Stacks:</label><br />
+      <input type="checkbox" name="stack" id="backend" value="backend" />
+      <label for="backend">Backend</label>
+      <input type="checkbox" name="stack" id="frontend" value="frontend" />
+      <label for="frontend">Frontend</label>
+      <input type="checkbox" name="stack" id="mobile" value="mobile" />
+      <label for="mobile">Mobile</label>
+      <br /><br />
+
+      <label for="date-of-birth">Date of birth:</label><br />
+      <input type="date" name="date-of-birth" id="date-of-birth" />
+      <br /><br />
+
+      <label for="profile-picture">Profile picture:</label><br />
+      <input type="file" name="profile-picture" id="profile-picture" />
+      <br /><br />
+
+      <label for="color">Pick a color:</label><br />
+      <select name="color" id="color">
+        <option value="" selected disabled>Select one of the options...</option>
+        <option value="red">Red</option>
+        <option value="orange">Orange</option>
+        <option value="yellow">Yellow</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="indigo">Indigo</option>
+        <option value="violet">Violet</option>
+      </select>
+      <br /><br />
+
+      <label for="bio">Bio:</label><br />
+      <textarea
+        name="bio"
+        id="bio"
+        cols="40"
+        rows="6"
+        placeholder="Tell us about yourself..."></textarea>
+      <br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

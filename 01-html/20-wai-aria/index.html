@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>WAI-ARIA</title>
+  </head>
+  <body>
+    <h1>WAI-ARIA</h1>
+    <div
+      role="alert"
+      aria-labelledby="info-heading"
+      aria-describedby="info-content">
+      <h2 id="info-heading">Important Information</h2>
+      <p id="info-content">This is an informative message for users.</p>
+    </div>
+
+    <form action="#" method="post">
+      <div>
+        <label for="name">Name:</label><br />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          required
+          aria-required="true"
+          aria-label="Name Field" />
+        <br /><br />
+
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          aria-required="true"
+          aria-label="Email Field" />
+        <br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea
+          name="message"
+          id="message"
+          required
+          aria-required="true"
+          aria-label="Message Field"></textarea>
+      </div>
+      <br />
+
+      <div role="status" aria-live="polite">
+        <p>Message sent successfully!</p>
+      </div>
+
+      <div role="status" aria-live="assertive">
+        <p>Error sending the message. Please check the required fields.</p>
+      </div>
+
+      <button type="submit" aria-label="Submit Form">Submit</button>
+    </form>
+  </body>
+</html>

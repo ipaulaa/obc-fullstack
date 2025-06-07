@@ -1,0 +1,74 @@
+/* Universal selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Type selectors */
+header,
+footer {
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+}
+
+/* Descendant selector */
+nav a {
+  color: #0eb2e3;
+}
+
+/* Child selector */
+nav > a {
+  display: block;
+  padding: 10px;
+  color: #bb31bb;
+}
+
+/* Adjacent sibling selector */
+h2 + p {
+  padding: 30px;
+}
+
+/* Class selector */
+.orange {
+  color: #f79f4d;
+}
+
+/* Class selector */
+.green {
+  color: #27ae60;
+}
+
+/* ID selector */
+#hero {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Child selector */
+#hero > * {
+  margin-top: 10px;
+}
+
+/* Type selector */
+input {
+  display: block;
+  margin: 5px;
+  padding: 5px;
+}
+
+/* Adjacent sibling selector */
+input + input {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Attribute selector */
+input[name="email"] {
+  background-color: #ffee89;
+}
+
+/* Attribute selector */
+input[type="password"] {
+  background-color: #7df8ae;
+}

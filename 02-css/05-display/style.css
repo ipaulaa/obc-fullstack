@@ -1,0 +1,28 @@
+p {
+  padding: 20px;
+  border: 2px solid #44c5e0;
+}
+
+.inline {
+  background-color: #dda0dd;
+
+  display: inline;
+  margin: 100px 20px;
+  padding: 50px 25px;
+}
+
+.block {
+  background-color: #42ffc9;
+
+  display: block;
+  margin: 40px 20px;
+  padding: 25px 20px;
+}
+
+.inline-block {
+  background-color: #f8d;
+
+  display: inline-block;
+  margin: 100px 20px;
+  padding: 50px 25px;
+}

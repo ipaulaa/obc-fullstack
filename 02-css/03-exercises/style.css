@@ -1,0 +1,32 @@
+body {
+  background-image: url("images/fernando-de-noronha.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  color: #eee;
+  background-color: #248030;
+}
+
+.rad-5 {
+  border-radius: 5px;
+}
+
+main {
+  background-color: #ffff8c;
+}
+
+a {
+  color: #248030;
+}
+
+button {
+  color: #fff;
+  background-color: #248030;
+  border: 2px solid #248030;
+}
+
+footer {
+  background-color: #fff;
+}
